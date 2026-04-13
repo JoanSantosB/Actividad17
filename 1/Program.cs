@@ -1,7 +1,7 @@
 ﻿bool correcto = false;
 do
 {
-    Console.Write("Ingrese se una edad:");
+    Console.Write("Ingrese se una edad: ");
     if(int.TryParse(Console.ReadLine(), out int edad))
     {
         if(edad > 0 && edad <= 120)
